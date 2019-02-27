@@ -1,0 +1,48 @@
+@import '../mixin.less';
+.Sidebar {
+	width: 200px;
+	height: 100%;
+	background-color: #fff;
+	.transition(all .5s);
+	.boxShadow(0 0 15px rgba(0,0,0,0.3));
+	h1.sysytemName{
+	    cursor: pointer;
+		margin: 0;
+		line-height: 59px;
+		font-size: 20px;
+		text-align: center;
+		border-bottom: 1px solid #e5e5e5;
+		color: #7dbcea;
+		font-weight: 400;
+		.name-item{
+		    position: relative;
+		    img{
+		        position: absolute;
+		        left: -30px;
+		        top: 17px;
+		        .transition(all .5s);
+		    }
+			display: inline-block;
+			margin: 0 5px;
+			white-space: nowrap;
+			span{
+			    .transition(all .5s);
+			}
+			
+		}
+	}
+}
+.Sidebar.closer{
+    width: 30px;
+    overflow: hidden;
+    h1{
+        .name-item{
+            img{
+                left: -5px;
+            }
+            span{
+                .opacity(0);
+            }
+        }
+    }
+}

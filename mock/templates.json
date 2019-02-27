@@ -1,0 +1,81 @@
+{
+  "list": [
+    {
+      "templateId": 21,
+      "templateName": "模板2",
+      "templateIdentifierCode": "TMP_Touna_CKAPP",
+      "description": "",
+      "updateUser": "admin",
+      "templateStatus": 1,
+      "templateSaveExplainUrl": null,
+      "templateSaveRuleUrl": null,
+      "updateTime": "2018-12-17T11:43:38.000+0000"
+    },
+    {
+      "templateId": 22,
+      "templateName": "xasx",
+      "templateIdentifierCode": "xasxas",
+      "description": "",
+      "updateUser": "admin",
+      "templateStatus": 0,
+      "templateSaveExplainUrl": null,
+      "templateSaveRuleUrl": null,
+      "updateTime": "2018-09-06T09:35:36.000+0000"
+    },
+    {
+      "templateId": 23,
+      "templateName": "xxaxasxasaxsa",
+      "templateIdentifierCode": "zm01",
+      "description": "",
+      "updateUser": "admin",
+      "templateStatus": 0,
+      "templateSaveExplainUrl": null,
+      "templateSaveRuleUrl": null,
+      "updateTime": "2018-11-05T06:47:41.000+0000"
+    },
+    {
+      "templateId": 24,
+      "templateName": "经纪人进件模板0",
+      "templateIdentifierCode": "TMP_Touna_Broker0",
+      "description": "经纪人进件模板",
+      "updateUser": "admin",
+      "templateStatus": 1,
+      "templateSaveExplainUrl": null,
+      "templateSaveRuleUrl": null,
+      "updateTime": "2018-11-05T06:47:48.000+0000"
+    },
+    {
+      "templateId": 26,
+      "templateName": "经纪人进件模板",
+      "templateIdentifierCode": "TMP_Touna_Broker",
+      "description": "经纪人进件模板",
+      "updateUser": "admin",
+      "templateStatus": 1,
+      "templateSaveExplainUrl": null,
+      "templateSaveRuleUrl": null,
+      "updateTime": "2018-12-06T08:33:49.000+0000"
+    },
+    {
+      "templateId": 27,
+      "templateName": "zm001",
+      "templateIdentifierCode": "zm001",
+      "description": "121231231233",
+      "updateUser": "admin",
+      "templateStatus": 0,
+      "templateSaveExplainUrl": null,
+      "templateSaveRuleUrl": null,
+      "updateTime": "2018-12-07T02:55:56.000+0000"
+    },
+    {
+      "templateId": 28,
+      "templateName": "自主进件模板04",
+      "templateIdentifierCode": "TMP_Touna_CKAPP_04",
+      "description": "自主进件4期，大额共借版本",
+      "updateUser": "admin",
+      "templateStatus": 1,
+      "templateSaveExplainUrl": null,
+      "templateSaveRuleUrl": null,
+      "updateTime": "2018-12-07T02:55:09.000+0000"
+    }
+  ]
+}

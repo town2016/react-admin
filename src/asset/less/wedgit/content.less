@@ -1,0 +1,31 @@
+@import '../mixin.less';
+.Content{
+	height: 100%;
+	padding-top: 60px;
+	box-sizing: border-box;
+	position: relative;
+	.mainContent{
+	    position: absolute;
+	    top: 60px;
+	    bottom: 0;
+	    left: 0;
+	    width: 100%;
+		box-sizing: border-box;
+		padding: 15px;
+		.content-inner{
+			width: 100%;
+			height: 100%;
+			background-color: #fff;
+			padding: 10px;
+			overflow-y: auto;
+			overflow-x:hidden;
+			box-sizing: border-box;
+			.borderRadius(5px);
+			> div:first-child {
+				padding-bottom:10px;
+				margin-bottom:10px;
+				border-bottom: 1px solid #CCC;
+			}
+		}
+	}
+}

@@ -1,0 +1,6 @@
+{
+    "/mock/template/get_template_list": "/get_templates",
+    "/mock/orders": "/orders",
+    "/mock/orders/:id": "/orders/:id",
+    "/mock/templates": "/templates"
+}

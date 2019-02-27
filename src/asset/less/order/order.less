@@ -1,0 +1,111 @@
+@import '../mixin.less';
+.OrderList{
+    .iform{
+        padding-top: 24px;
+        background-color: #f1f1f1;
+        padding-right: 10px;
+        .ant-radio-button-wrapper{
+            border: none;
+            background-color: transparent;
+            color: #333;
+        }
+        .ant-radio-button-wrapper:not(:first-child)::before{
+            display: block;
+            width: 1px;
+            background-color: #999;
+            position: absolute;
+            height: auto;
+            top: 6px;
+            bottom: 6px;
+        }
+        .ant-radio-button-wrapper:not(:last-child)::before{
+            display: block;
+            width: 1px;
+            background-color: #999;
+            position: absolute;
+            height: auto;
+            top: 6px;
+            bottom: 6px;
+        }
+        .ant-radio-group-solid .ant-radio-button-wrapper-checked:not(.ant-radio-button-wrapper-disabled){
+            background-color: #1890ff;
+            border-radius: 0;
+            color: #fff;
+        }
+    }
+}
+.OrderDetail{
+    width: 100%;
+}
+.BaseInfo{
+    width: 100%;
+    .iform{
+        .ant-form-item-label{
+            width: 140px;
+            label{
+                color: #000;
+            }
+        }
+        .ant-form-item-control-wrapper{
+          margin: 0 0 0 140px;
+          color: #333;
+        }
+        .ant-form-item{
+            margin-bottom: 0px;
+        }
+    }
+}
+.Attachment {
+    width: 100%;
+    ul{
+        border: 1px solid #ddd;
+        padding: 15px;
+        box-sizing: border-box;
+        margin:10px 0 0 0 ;
+    }
+    .item {
+        float: left;
+        width: 240px;
+        margin: 10px;
+        color: #333;
+        .imgBox{
+            width: 100%;
+            height: 235px;
+            box-sizing: border-box;
+            border: 1px solid #ddd;
+            padding: 5px;
+            .imgBox-inner{
+                width: 100%;
+                height: 100%;
+                overflow: hidden;
+                .flex;
+                .flex-align-center;
+                .flex-pack-center;
+            }
+            img{
+                display: block;
+                max-width: 100%;
+            }
+        }
+        .checkBox, .category{
+            text-align: center;
+            font-size: 14px;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            padding: 0 5px;
+            margin-bottom: 5px;
+            line-height:20px ;
+            label{
+                vertical-align: top;
+            }
+            span{
+                display: inline-block;
+                vertical-align: middle;
+                margin:0 2px;
+            }
+        }
+    }
+}
+
+
