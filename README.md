@@ -14,7 +14,3 @@ cnpm install
 5. 测试
 ### `npm test`
 
-测试
-npm test
-dev-alt
-dev-town
